@@ -2,7 +2,7 @@
   inputs = {
     nixpkgs.url = "nixpkgs/nixos-24.05";  # Use your desired Nixpkgs channel
     flake-utils.url = "github:numtide/flake-utils";
-    justusschock.url = "github:justusschock/nixos-packages";
+    justusschock.url = "github:justusperillieux/nixos-packages";
   };
 
   outputs = { self, nixpkgs, flake-utils, justusschock, ... }: 
